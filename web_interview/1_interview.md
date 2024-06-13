@@ -177,3 +177,13 @@ S.no., Language, Mostly used for
     It can modified by css and script.
     It is more scalable.
 ```
+
+# Concept of Web-storage.?
+```
+  Web storage help to storing some of the static data into local storage so we don't have to fetch data from server everytime.
+  It decrease load time and smooth user experience.
+  
+  Two types of data:
+    1.Local storage 2.Session storage
+    -> local storage is that storage if we open our browser its data come back but in case of session storage once we off the browser then the data will be deleted from your storage.
+```
