@@ -1,6 +1,6 @@
 // console.log(hello)
 
-let hello = 3;
+// let hello = 3;
 // let a = true || 1;
 // console.log(a)
 
@@ -35,10 +35,23 @@ let hello = 3;
 // console.log(a)
 
 
-let a = (function() {
-    console.log("hello world");
-})();
+// let a = (function() {
+//     console.log("hello world");
+// })();
 
-console.log(a)
+// console.log(a)
 
-// 9873914621 siddharth
+// "use strict";
+// function arguments() {
+//     console.log("hello");
+// }
+
+// arguments();
+
+
+// this
+function doSomething() {
+    console.log(this);
+}
+
+doSomething();

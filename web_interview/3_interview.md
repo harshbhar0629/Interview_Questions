@@ -67,4 +67,30 @@
   It also catch silent error.
   You can't use variable before the declaration.
   It also enhanced performance.
+
+  Ex:
+    function arguments() {
+        console.log("hello");
+    }
+    arguments();
+    // Not show error but arguments is a reserved keyword.
+
+    "use strict";
+    function arguments() {
+        console.log("hello");
+    }
+    arguments();
+    // It show error we can declare a function name with javascript reserved keyword.
+```
+
+# What are high order function.?
+```
+  High order fn is a special type of function which can take a another fn as an arguement stores the reference of another function.
+  Ex:
+    function fn(f){
+      f();
+    }
+    function f(){
+      console.log("Hello World!");
+    }
 ```
